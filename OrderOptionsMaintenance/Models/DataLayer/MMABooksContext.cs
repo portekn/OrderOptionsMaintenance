@@ -29,7 +29,7 @@ namespace OrderOptionsMaintenance.Models.DataLayer
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MMABooks"].ConnectionString);
+                optionsBuilder.UseSqlServer(ConfigurationManager.ConnectionStrings["MMABooksDB"].ConnectionString);
             }
         }
 
