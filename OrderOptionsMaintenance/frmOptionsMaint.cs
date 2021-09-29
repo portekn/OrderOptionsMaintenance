@@ -24,7 +24,7 @@ namespace OrderOptionsMaintenance
         private void frmOptionsMaint_Load(object sender, EventArgs e)
         {
             _context = new MMABooksContext();
-            _orderOptions = _context.OrderOption.First();
+            _orderOptions = _context.OrderOptions.First();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
