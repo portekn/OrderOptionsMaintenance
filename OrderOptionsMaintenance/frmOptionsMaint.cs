@@ -14,7 +14,7 @@ namespace OrderOptionsMaintenance
     public partial class frmOptionsMaint : Form
     {
         private MMABooksContext _context;
-        private OrderOption _orderOption;
+        private OrderOption _OrderOption;
         public frmOptionsMaint()
         {
             InitializeComponent();
@@ -23,14 +23,25 @@ namespace OrderOptionsMaintenance
         private void frmOptionsMaint_Load(object sender, EventArgs e)
         {
             _context = new MMABooksContext();
-            _orderOption = _context.OrderOptions.First();
+            _OrderOption = _context.OrderOptions.First();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (IsValidData())
             {
+                try
+                {
+                    decimal SalesTaxRate = Convert.ToDecimal(txtSalesTax);
+                    decimal FirstBookShipCharge = Convert.ToDecimal(txtShipFirstBook);
+                    decimal AdditionalBookShipCharge = Convert.ToDecimal(txtShipAddlBook);
+                    IsValidData();
+                }
+                catch(Exception)
+                {
+                    MessageBox.Show("Please enter a valid nuber", "Entry Error");
 
+                }
             }
         }
 

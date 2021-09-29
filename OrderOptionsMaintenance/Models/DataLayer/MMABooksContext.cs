@@ -24,6 +24,7 @@ namespace OrderOptionsMaintenance.Models.DataLayer
         public virtual DbSet<OrderOption> OrderOptions { get; set; }
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<State> States { get; set; }
+        public object OrderOption { get; internal set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
