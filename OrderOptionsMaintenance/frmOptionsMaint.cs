@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OrderOptionsMaintenance.Models.DataLayer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace OrderOptionsMaintenance
 {
     public partial class frmOptionsMaint : Form
     {
+        private MMABooksContext _context;
+        private OrderOption _orderOptions;
         public frmOptionsMaint()
         {
             InitializeComponent();
@@ -19,7 +22,8 @@ namespace OrderOptionsMaintenance
 
         private void frmOptionsMaint_Load(object sender, EventArgs e)
         {
-
+            _context = new MMABooksContext();
+            _orderOptions = _context.OrderOptions.First();
         }
 
         private void btnSave_Click(object sender, EventArgs e)
