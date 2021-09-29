@@ -30,6 +30,10 @@ namespace OrderOptionsMaintenance
         {
             if (IsValidData())
             {
+                decimal SalesTaxRate = Convert.ToDecimal(txtSalesTax);
+                decimal FirstBookShipCharge = Convert.ToDecimal(txtShipFirstBook);
+                decimal AdditionalBookShipCharge = Convert.ToDecimal(txtShipAddlBook);
+
 
             }
         }
