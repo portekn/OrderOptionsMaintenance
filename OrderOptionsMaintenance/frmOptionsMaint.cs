@@ -14,7 +14,7 @@ namespace OrderOptionsMaintenance
     public partial class frmOptionsMaint : Form
     {
         private MMABooksContext _context;
-        private OrderOptions _orderOption;
+        private OrderOption _orderOption;
         public frmOptionsMaint()
         {
             InitializeComponent();
