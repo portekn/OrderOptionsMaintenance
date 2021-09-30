@@ -41,66 +41,66 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 16);
+            this.label1.Location = new System.Drawing.Point(21, 21);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 15);
+            this.label1.Size = new System.Drawing.Size(100, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Sales tax rate:";
             // 
             // txtSalesTax
             // 
-            this.txtSalesTax.Location = new System.Drawing.Point(235, 14);
-            this.txtSalesTax.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtSalesTax.Location = new System.Drawing.Point(269, 19);
+            this.txtSalesTax.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtSalesTax.Name = "txtSalesTax";
-            this.txtSalesTax.Size = new System.Drawing.Size(106, 23);
+            this.txtSalesTax.Size = new System.Drawing.Size(121, 27);
             this.txtSalesTax.TabIndex = 1;
             this.txtSalesTax.Tag = "Sales tax rate";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 44);
+            this.label2.Location = new System.Drawing.Point(21, 59);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 15);
+            this.label2.Size = new System.Drawing.Size(197, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Shipping charge - first book:";
             // 
             // txtShipFirstBook
             // 
-            this.txtShipFirstBook.Location = new System.Drawing.Point(235, 42);
-            this.txtShipFirstBook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtShipFirstBook.Location = new System.Drawing.Point(269, 56);
+            this.txtShipFirstBook.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtShipFirstBook.Name = "txtShipFirstBook";
-            this.txtShipFirstBook.Size = new System.Drawing.Size(106, 23);
+            this.txtShipFirstBook.Size = new System.Drawing.Size(121, 27);
             this.txtShipFirstBook.TabIndex = 3;
             this.txtShipFirstBook.Tag = "First book shipping charge";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 72);
+            this.label3.Location = new System.Drawing.Point(21, 96);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(191, 15);
+            this.label3.Size = new System.Drawing.Size(240, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Shipping charge - each add\'l book:";
             // 
             // txtShipAddlBook
             // 
-            this.txtShipAddlBook.Location = new System.Drawing.Point(235, 70);
-            this.txtShipAddlBook.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtShipAddlBook.Location = new System.Drawing.Point(269, 93);
+            this.txtShipAddlBook.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtShipAddlBook.Name = "txtShipAddlBook";
-            this.txtShipAddlBook.Size = new System.Drawing.Size(106, 23);
+            this.txtShipAddlBook.Size = new System.Drawing.Size(121, 27);
             this.txtShipAddlBook.TabIndex = 5;
             this.txtShipAddlBook.Tag = "Add\'l book shipping charge";
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(128, 107);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSave.Location = new System.Drawing.Point(146, 143);
+            this.btnSave.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(78, 25);
+            this.btnSave.Size = new System.Drawing.Size(89, 33);
             this.btnSave.TabIndex = 6;
             this.btnSave.Text = "&Save";
             this.btnSave.UseVisualStyleBackColor = true;
@@ -108,10 +108,10 @@
             // 
             // btnExit
             // 
-            this.btnExit.Location = new System.Drawing.Point(235, 107);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnExit.Location = new System.Drawing.Point(269, 143);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(78, 25);
+            this.btnExit.Size = new System.Drawing.Size(89, 33);
             this.btnExit.TabIndex = 7;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
@@ -120,10 +120,10 @@
             // frmOptionsMaint
             // 
             this.AcceptButton = this.btnSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnExit;
-            this.ClientSize = new System.Drawing.Size(368, 149);
+            this.ClientSize = new System.Drawing.Size(421, 199);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.txtShipAddlBook);
@@ -132,10 +132,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtSalesTax);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "frmOptionsMaint";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Order Options Maintenance";
+            this.Text = "Kelli Porter\'s Order Options Thingy";
             this.Load += new System.EventHandler(this.frmOptionsMaint_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
